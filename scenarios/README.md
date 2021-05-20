@@ -1,6 +1,6 @@
 # DataSet
 
-In order to evaluation **SSPT**, a repository of test scenarios is needed. Below, we describe the content of the dataset and the process of obtaining it. 
+In order to evaluation **SSPT**, a repository of test scenarios is needed. Below, we describe the content of the [DataSet](https://github.com/ssbse2021/SSPT/blob/main/scenarios/DataSet.csv) and the process of obtaining it. 
 
 ## Test scenarios. 
 
