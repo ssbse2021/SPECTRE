@@ -1,8 +1,9 @@
 # Public Data for Peer Review of SSPT
 
 > To facilitate reviewing our proposed approach, reviewers please refer to the corresponding data in this repository:
->
 > 
+> **[Experiment](https://github.com/ssbse2021/SSPT/tree/main/Experiment)**: all raw data and analysis result for the experiment;<br/> 
+> **[scenarios](https://github.com/ssbse2021/SSPT/tree/main/scenarios)**: dataset and properties description in our experiment.
 # SSPT Overview
 As shown in the figure, SSPT relies on test scenario execution results from a previous version of an ADS to prioritize test scenarios that are executed on the newer version of the ADS.
 <div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/figures/overview.png" style="zoom:20%" /></div>
