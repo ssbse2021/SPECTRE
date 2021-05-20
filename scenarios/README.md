@@ -1,6 +1,6 @@
 # DataSet
 
-In order to evaluation **SSPT**, a repository of test scenarios is needed. Below, we describe the content of the dataset and the process of obtaining it. 
+In order to evaluation **SSPT**, a repository of test scenarios is needed. Below, we describe the content of the [DataSet](https://github.com/ssbse2021/SSPT/blob/main/scenarios/DataSet.csv) and the process of obtaining it. 
 
 ## Test scenarios. 
 
@@ -10,9 +10,9 @@ A test scenario for ADSs, in our experiment, is defined with **19** [properties]
 
 The test scenarios in the dataset were automatically produced and collected when we were testing Apollo 5.0 with a with a machine learning based environment configuration generation strategy. We let the framework execute for nearly 1000 times on four different roads of the San Francisco map loaded in LGSVL; meanwhile we let the ADS drive from a start point to the destination. In the end, we managed to collect the dataset of 90K test scenarios, each of which is characterized with the 19 properties. 
 
-## Processing Data. F
+## Processing Data.
 
-irst, we removed duplicated test scenarios from the original dataset. Without doing so would cause unnecessary effort for prioritization, though one of our optimization objective is to maximize the diversity of a test suite (i.e., **TSDIV**). In the end, we obtained a dataset containing 60K scenarios. To save time on calculating diversity during the execution of the MOSAs, we further calculated all the pair-wise comparison diversity values of the test scenarios in advance, i.e., **SDIV**.
+First, we removed duplicated test scenarios from the original dataset. Without doing so would cause unnecessary effort for prioritization, though one of our optimization objective is to maximize the diversity of a test suite (i.e., **TSDIV**). In the end, we obtained a dataset containing 60K scenarios. To save time on calculating diversity during the execution of the MOSAs, we further calculated all the pair-wise comparison diversity values of the test scenarios in advance, i.e., **SDIV**.
 
 ## Labelling test scenarios with their attributes. 
 
