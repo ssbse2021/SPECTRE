@@ -4,5 +4,5 @@
 >
 > 
 
-![overview](D:\RTCM COPY\SSBSE\overview.png)
+![overview](figures\overview.png)
 
