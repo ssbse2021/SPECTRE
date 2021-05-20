@@ -6,7 +6,7 @@
 > **[scenarios](https://github.com/ssbse2021/SSPT/tree/main/scenarios)**: dataset and properties description in our experiment.
 # SSPT Overview
 As shown in the figure, SSPT relies on test scenario execution results from a previous version of an ADS to prioritize test scenarios that are executed on the newer version of the ADS.
-<div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/figures/SSPToverview.png" style="zoom:2%" /></div>
+<div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/figures/SSPToverview.png" width = "500" /></div>
 
 In SSPT, each scenario is characterized with a set of properties of the ego vehicle with the ADS under test deployed (e.g., acceleration, speed) and its environment (e.g., weather, number of obstacles).
 
