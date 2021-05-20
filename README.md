@@ -4,5 +4,5 @@
 >
 > 
 
-![overview](figures\overview.png)
+<div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/figures/overview.png" style="zoom:20%" /></div>
 
