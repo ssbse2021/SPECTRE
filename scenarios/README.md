@@ -4,9 +4,11 @@ In order to evaluation **SSPT**, a repository of test scenarios is needed. Below
 
 ## Test scenarios. 
 
- As shown in the following figure, a test scenario for ADSs, in our experiment, is defined with **19** [properties](https://github.com/ssbse2021/SSPT/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png). **Five** of them are about the ego vehicle (e.g., acceleration and speed) and the other **fourteen** properties describe the environment (e.g., pedestrians, weather). To produce the dataset, we employed the Baidu Apollo Open Platform 5.0 as the ADS under test and integrated it with the LGSVL simulator. We chose the San Francisco map as for scenarios collecting because it has a large number of different types of roads such as one-way roads, two-way roads and cross walks.
+ As shown in the following figure, a test scenario for ADSs, in our experiment, is defined with **19** [properties](https://github.com/ssbse2021/SSPT/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png). **Five** of them are about the ego vehicle (e.g., acceleration and speed) and the other **fourteen** properties describe the environment (e.g., pedestrians, weather). 
 
 <div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png" width = "500" /></div>
+
+To produce the dataset, we employed the Baidu Apollo Open Platform 5.0 as the ADS under test and integrated it with the LGSVL simulator. We chose the San Francisco map as for scenarios collecting because it has a large number of different types of roads such as one-way roads, two-way roads and cross walks.
 
 ## Collecting  Data. 
 
