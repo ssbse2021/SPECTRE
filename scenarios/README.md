@@ -12,7 +12,7 @@ To produce the dataset, we employed the Baidu Apollo Open Platform 5.0 as the AD
 
 ## Collecting  Data. 
 
-The test scenarios in the dataset were automatically produced and collected when we were testing Apollo 5.0 with a with a machine learning based environment configuration generation strategy. We let the framework execute for nearly 1000 times on four different roads of the San Francisco map loaded in LGSVL; meanwhile we let the ADS drive from a start point to the destination. In the end, we managed to collect the dataset of 90K test scenarios, each of which is characterized with the 19 properties. 
+The test scenarios in the dataset were automatically produced and collected when we were testing Apollo 5.0 with a machine learning based environment configuration generation strategy. We let the framework execute for nearly 1000 times on four different roads of the San Francisco map loaded in LGSVL; meanwhile we let the ADS drive from a start point to the destination. In the end, we managed to collect the dataset of 90K test scenarios, each of which is characterized with the 19 properties. 
 
 ## Processing Data.
 
