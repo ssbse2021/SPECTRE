@@ -1,12 +1,12 @@
 # DataSet
 
-In order to evaluation **SSPT**, a repository of test scenarios is needed. Below, we describe the content of the [DataSet](https://github.com/ssbse2021/SSPT/blob/main/scenarios/DataSet.csv) and the process of obtaining it. 
+In order to evaluation **SPECTRE**, a repository of test scenarios is needed. Below, we describe the content of the [DataSet](https://github.com/ssbse2021/SPECTRE/blob/main/scenarios/DataSet.csv) and the process of obtaining it. 
 
 ## Test scenarios. 
 
- As shown in the following figure, a test scenario for ADSs, in our experiment, is defined with **19** [properties](https://github.com/ssbse2021/SSPT/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png). **Five** of them are about the ego vehicle (e.g., acceleration and speed) and the other **fourteen** properties describe the environment (e.g., pedestrians, weather). 
+ As shown in the following figure, a test scenario for ADSs, in our experiment, is defined with **19** [properties](https://github.com/ssbse2021/SPECTRE/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png). **Five** of them are about the ego vehicle (e.g., acceleration and speed) and the other **fourteen** properties describe the environment (e.g., pedestrians, weather). 
 
-<div align=center><img src="https://github.com/ssbse2021/SSPT/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png" width = "500" /></div>
+<div align=center><img src="https://github.com/ssbse2021/SPECTRE/blob/main/scenarios/properties%20used%20to%20specify%20a%20scenario.png" width = "500" /></div>
 
 To produce the dataset, we employed the Baidu Apollo Open Platform 5.0 as the ADS under test and integrated it with the LGSVL simulator. We chose the San Francisco map as for scenarios collecting because it has a large number of different types of roads such as one-way roads, two-way roads and cross walks.
 
@@ -20,4 +20,4 @@ First, we removed duplicated test scenarios from the original dataset. Without d
 
 ## Labelling test scenarios with their attributes. 
 
-After data collecting and pre-processing, for each test scenario, we calculated four values for each of the four attributes. The labeled dataset was then fed to **SSPT** for selecting and prioritizing scenarios in our experiment.
+After data collecting and pre-processing, for each test scenario, we calculated four values for each of the four attributes. The labeled dataset was then fed to **SPECTRE** for selecting and prioritizing scenarios in our experiment.
